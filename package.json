@@ -10,7 +10,12 @@
     "lint": "eslint src",
     "prepublishOnly": "yarn lint"
   },
-  "dependencies": {},
+  "dependencies": {
+    "knex": "^0.21.19",
+    "knex-query-logger": "^0.1.0",
+    "objection": "^2.2.15",
+    "pg": "^8.5.1"
+  },
   "devDependencies": {
     "eslint": "^7.22.0",
     "eslint-config-airbnb-base": "^14.2.1",
