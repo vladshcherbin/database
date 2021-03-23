@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "knex": "^0.21.19",
-    "knex-query-logger": "^0.1.0",
+    "knex-query-logger": "^0.2.0",
     "objection": "^2.2.15",
     "pg": "^8.5.1"
   },

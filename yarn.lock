@@ -546,7 +546,7 @@ colorette@1.2.1:
   resolved "https://registry.yarnpkg.com/colorette/-/colorette-1.2.1.tgz#4d0b921325c14faf92633086a536db6e89564b1b"
   integrity sha512-puCDz0CzydiSYOrnXpz/PKd69zRrribezjtE9yd4zvytoRc8+RY/KJPvtPFKZS3E3wP6neGyMe0vOTlHO5L3Pw==
 
-colorette@^1.2.0, colorette@^1.2.1:
+colorette@^1.2.1, colorette@^1.2.2:
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/colorette/-/colorette-1.2.2.tgz#cbcc79d5e99caea2dbf10eb3a26fd8b3e6acfa94"
   integrity sha512-MKGMzyfeuutC/ZJ1cba9NqcNpfeqMUcYmyF1ZFY6/Cn7CNSAKx6a+s48sqLqyAiZuaP2TcqMhoo+dlwFnVxT9w==
@@ -1231,7 +1231,7 @@ has@^1.0.3:
   dependencies:
     function-bind "^1.1.1"
 
-highlight.js@^10.1.1:
+highlight.js@^10.7.1:
   version "10.7.1"
   resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-10.7.1.tgz#a8ec4152db24ea630c90927d6cae2a45f8ecb955"
   integrity sha512-S6G97tHGqJ/U8DsXcEdnACbirtbx58Bx9CzIVeYli8OuswCfYI/LsXH2EiGcoGio1KAC3x4mmUwulOllJ2ZyRA==
@@ -1567,13 +1567,13 @@ kind-of@^6.0.0, kind-of@^6.0.2:
   resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-6.0.3.tgz#07c05034a6c349fa06e24fa35aa76db4580ce4dd"
   integrity sha512-dcS1ul+9tmeD95T+x28/ehLgd9mENa3LsvDTtzm3vyBEO7RPptvAD+t44WVXaUjTBRcrpFeFlC8WCruUR456hw==
 
-knex-query-logger@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/knex-query-logger/-/knex-query-logger-0.1.0.tgz#d8de6d7a0e8a935283df49b9549a949fe180f272"
-  integrity sha512-1IOnjHqvUek9rghXoBxfvSCXRzSTrH3ZOCrotnkGMU3lz16IDtil0xTgRBw/mB4isEjSkQx1ZBa3WA8ZYDiJVw==
+knex-query-logger@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/knex-query-logger/-/knex-query-logger-0.2.0.tgz#07dfacebd1056bb0ba4b61eaad2d221b61502efe"
+  integrity sha512-9dXUY81p1j8BYwaGl3uyllw4sGSeB6pPlrUIaO5SWHsNYSfEi2lKu36ygpFzUZkkDa1md1zXV8p0d8vDz/ceJQ==
   dependencies:
-    colorette "^1.2.0"
-    highlight.js "^10.1.1"
+    colorette "^1.2.2"
+    highlight.js "^10.7.1"
 
 knex@^0.21.19:
   version "0.21.19"
