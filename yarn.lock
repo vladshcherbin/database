@@ -1567,10 +1567,10 @@ kind-of@^6.0.0, kind-of@^6.0.2:
   resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-6.0.3.tgz#07c05034a6c349fa06e24fa35aa76db4580ce4dd"
   integrity sha512-dcS1ul+9tmeD95T+x28/ehLgd9mENa3LsvDTtzm3vyBEO7RPptvAD+t44WVXaUjTBRcrpFeFlC8WCruUR456hw==
 
-knex-query-logger@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/knex-query-logger/-/knex-query-logger-0.2.0.tgz#07dfacebd1056bb0ba4b61eaad2d221b61502efe"
-  integrity sha512-9dXUY81p1j8BYwaGl3uyllw4sGSeB6pPlrUIaO5SWHsNYSfEi2lKu36ygpFzUZkkDa1md1zXV8p0d8vDz/ceJQ==
+knex-query-logger@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/knex-query-logger/-/knex-query-logger-0.2.1.tgz#cae98bbb312351968f16352f6a2623364b052131"
+  integrity sha512-kZ4ekiG6PLHhJzmmVucqXqSpBUQHFzNEpnBLIlQ+bYxyZyi9s6elscJIfwISw3ynLa9OSFEWCWWNCay/W7AkWw==
   dependencies:
     colorette "^1.2.2"
     highlight.js "^10.7.1"
