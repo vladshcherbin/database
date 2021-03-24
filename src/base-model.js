@@ -1,7 +1,7 @@
-import { Model, snakeCaseMappers } from 'objection'
+import objection from 'objection'
 
-class BaseModel extends Model {
-  static columnNameMappers = snakeCaseMappers()
+class BaseModel extends objection.Model {
+  static columnNameMappers = objection.snakeCaseMappers()
 
   static useLimitInFirst = true
 
