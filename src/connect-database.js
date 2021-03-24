@@ -11,4 +11,6 @@ export default function connectDatabase(knexfile) {
   if (environment === 'development') {
     logger(knexConnection)
   }
+
+  return knexConnection
 }
