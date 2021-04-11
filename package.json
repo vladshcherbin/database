@@ -1,6 +1,6 @@
 {
   "name": "@shcherbin/database",
-  "description": "Connect to database",
+  "description": "Database connection module",
   "version": "0.3.0",
   "author": "Vlad Shcherbin <vlad.shcherbin@gmail.com>",
   "repository": "vladshcherbin/database",
