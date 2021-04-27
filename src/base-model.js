@@ -1,14 +1,9 @@
 import objection from 'objection'
-import NotFoundError from './NotFoundError'
 
 class BaseModel extends objection.Model {
   static columnNameMappers = objection.snakeCaseMappers()
 
   static useLimitInFirst = true
-
-  static createNotFoundError(_, message) {
-    return new NotFoundError(message)
-  }
 
   async $beforeInsert(queryContext) {
     await super.$beforeInsert(queryContext)
