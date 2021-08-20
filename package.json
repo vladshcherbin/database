@@ -11,14 +11,14 @@
     "prepublishOnly": "yarn lint"
   },
   "dependencies": {
-    "knex": "^0.21.19",
+    "knex": "^0.21.21",
     "knex-query-logger": "^0.2.1",
     "objection": "^2.2.15",
-    "pg": "^8.5.1"
+    "pg": "^8.7.1"
   },
   "devDependencies": {
     "@shcherbin/eslint-config": "^0.1.2",
-    "eslint": "^7.22.0"
+    "eslint": "^7.32.0"
   },
   "files": [
     "src"
