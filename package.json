@@ -1,7 +1,7 @@
 {
   "name": "@shcherbin/database",
   "description": "Database connection module",
-  "version": "0.7.1",
+  "version": "0.7.2",
   "author": "Vlad Shcherbin <vlad.shcherbin@gmail.com>",
   "repository": "vladshcherbin/database",
   "type": "module",
