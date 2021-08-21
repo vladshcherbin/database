@@ -7,7 +7,7 @@ class BaseModel extends objection.Model {
   static useLimitInFirst = true
 
   static createNotFoundError(_, message) {
-    return new NotFoundError(message)
+    return new NotFoundError(typeof message === 'string' && message)
   }
 
   async $beforeInsert(queryContext) {
